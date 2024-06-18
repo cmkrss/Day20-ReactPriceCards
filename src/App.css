@@ -1,0 +1,58 @@
+
+#root {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-container{
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5%; 
+  margin: 2%;
+  width: 450px;
+}
+.profile-container:hover{
+  cursor: pointer;
+  padding: 15px;
+}
+
+body{
+  background-color: rgb(153, 55, 246);
+}
+
+.profile-container.disable {
+  opacity: 0.5;
+}
+
+.profile-container.able {
+  opacity: 1; 
+}
+
+
+.types{
+  font-size: smaller;
+  font-weight: bold;
+  color: rgb(174, 171, 171);
+}
+.linePara{
+  color: grey;
+  font-weight: lighter;
+}
+button{
+  width: 80%;
+}
+
+button:hover{
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.disable {
+  opacity: 0.5;
+}
