@@ -103,10 +103,10 @@ function Profile({ model }) {
       <p>{model.storage.value} Storage</p>
       <p>{model.pp.value}</p>
       <p>{model.ca.value}</p>
-      <p>{model.ex1.value}</p>
-      <p>{model.ex2.value}</p>
-      <p>{model.ex3.value}</p>
-      <p>{model.ex4.value}</p>
+      <p className={model.ex1.style}>{model.ex1.value}</p>
+      <p classname={model.ex2.style}>{model.ex2.value}</p>
+      <p className={model.ex3.style}>{model.ex3.value}</p>
+      <p className={model.ex4.style}>{model.ex4.value}</p>
       <button>Button</button>   
     </div>
   );
